@@ -1,0 +1,330 @@
+*{
+	margin:0 auto;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration: none;		
+}
+body{
+	background-color: #f4f4f4;
+	font-family: PingFangSC-Light,'STHeiti Light','helvetica neue','hiragino sans gb',arial,'microsoft yahei ui','microsoft yahei',simsun,sans-serif;
+}
+
+.banner-section{
+	height: 480px;
+	background-image: url(../img/TOPBG.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner-content{
+	width: 1000px;
+	text-align: center;
+}
+.banner-logo{
+}
+.banner-title{
+	margin-top: 75px;
+	width: 625px;
+	height: 140px;
+	background-color: rgba(255,255,255,.2);
+	border-top: 4px solid #9093a3;
+}
+.banner-title_left{
+	display: inline-block;
+	float: left;
+}
+.school-logo{
+	display: inline-block;
+	margin-top: 27px;
+	margin-left: 30px;
+}
+.school-name{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 39px;
+	margin-left: 24px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+}
+.school-name span{
+	font-size: 14px;
+}
+.banner-title_right{
+	display: inline-block;
+	float: right;
+	margin-top: 32px;
+	margin-right: 80px;
+}
+.banner-course{
+	font-size: 22px;
+	line-height: 22px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.banner-course-time{
+	font-size: 14px;
+	line-height: 14px;
+	color: #fff;
+	margin-bottom: 9px;
+}
+.banner-course-data{
+	font-size: 14px;
+	line-height: 14px;
+	color: #fff;
+}
+.banner-button{
+	display: inline-block;
+	height: 50px;
+	background-color: #35b558;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-top: 70px;
+	padding: 0 57px;
+}
+.banner-button:hover{
+	background-color: #2aa14b;
+}
+
+
+
+
+
+.study-section{
+	width: 1000px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.study-title{
+	font-size: 20px;
+	color: #333333;
+	text-align: center;
+}
+.study-content{
+	width: 780px;
+	height: 102px;
+	background-color: #fff;
+	margin-top: 32px;
+}
+.study-content-text{
+	font-size: 13px;
+	line-height: 21px;
+	color: #333;
+	padding-top: 35px;
+	padding-left: 24px;
+	padding-right: 15px;
+}
+.study-content-link{
+	color: #2d85ca;
+}
+
+.teacher-section{
+	width: 1000px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.teacher-title{
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+.teacher-list{
+	margin-top: 40px;
+	width: 780px;
+	font-size: 0;
+}
+.teacher-item{
+	display: inline-block;
+	position: relative;
+	width: 247px;
+	height: 270px;
+	background-color: #fff;
+	border-top: 2px solid #26b1ff;
+	margin-right: 19px;
+	padding: 66px 46px 0;
+
+}
+.teacher-item:nth-child(3){
+	margin-right: 0;
+}
+.teacher-head{
+	position: absolute;
+	left: 80px;
+	top: -41px;
+	width: 88px;
+	height: 88px;
+	border-radius: 50%;
+	border:1px solid #ededed;
+	z-index: 2;
+}
+.teacher-name{
+	font-size: 16px;
+	font-weight: 600;
+	color: #333333;
+	text-align: center;
+}
+.teacher-introduce{
+	font-size: 13px;
+	color: #999999;
+	margin-top: 16px;
+	text-align: center; 
+}
+.teacher-text{
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+	margin-top: 20px;
+}
+
+
+.course_arrange-section{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	width: 1000px;
+}
+.course_arrange-title{
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+}
+.course_arrange-list{
+	margin-top: 30px;
+	font-size: 0;
+}
+.course_arrange-item{
+	position: relative;
+	width: 780px;
+	height: 100px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+.arrange-item-left{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	background-color: #15bb8a;
+	text-align: center;
+	margin-right: 20px;
+}
+.arrange-item-left h3{
+	font-size: 16px;
+	line-height: 16px;
+	color: #eaf7f2;
+	margin-top: 28px;
+	margin-bottom: 16px;
+	font-weight: 600;
+}
+.arrange-item-left p{
+	font-size: 14px;
+	line-height: 14px;
+	color: #fdff5f;
+	font-weight: 600;
+}
+.arrange-item-title{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 14px;
+	color: #333;
+	vertical-align: top;
+	margin-top: 27px;
+}
+.arrange-item-text{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 12px;
+	color: #7a7a7a;
+	margin-top: 19px;
+
+}
+.arrange-item-time{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	font-size: 12px;
+	color: #999999;
+
+}
+.arrange-item-time i{
+	margin: 0 5px;
+	font-style: normal;
+}
+.issue-section{
+	padding-top: 25px;
+	padding-bottom: 45px;
+	width: 1000px;
+
+}
+.issue-title{
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+}
+.issue-answer{
+	margin-top: 30px;
+	width: 780px;
+}
+.issue-answer_item{
+	position: relative;
+	width: 100%;
+	height: 140px;
+	background-color: #fff;
+	padding:25px 45px 0 50px;
+}
+.issue-wen{
+	position: relative;
+	font-size: 13px;
+	color: #333;
+}
+.issue-wen:after{
+	content: 'Q';
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 600;
+	color: #35b558;
+	position: absolute;
+	top: 1px;
+	left: -26px;
+}
+.issue-da{
+	position: relative;
+	font-size: 13px;
+	color: #666666;
+	margin-top: 20px;
+}
+.issue-da:after{
+	content: 'A';
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 600;
+	color: #35b558;
+	position: absolute;
+	top: 1px;
+	left: -25px;
+}
+.xian{
+	position: absolute;
+	left: 5px;
+	bottom: 0;
+	width: 770px;
+	height: 1px;
+	background-color: #f2f2f2;
+}
+
+
+
+.foot-section{
+	height: 75px;
+	padding-top: 25px;
+	text-align: center;
+}
+.foot-text{
+	font-size: 12px;
+	color: #999999;
+}
+.foot-text a{
+	color: #999;
+}
